@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 
 	urlshortener "github.com/friendsofgo/gophercicios/url-shortener/skeleton"
@@ -29,8 +30,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println("Starting the server on :8080")
-	http.ListenAndServe(":8080", yamlHandler)
+	fmt.Println("Starting the server on :8000")
+	log.Fatal(http.ListenAndServe(":8000", yamlHandler))
 }
 
 func defaultMux() *http.ServeMux {
@@ -40,5 +41,5 @@ func defaultMux() *http.ServeMux {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, world!")
+	_, _ = fmt.Fprintln(w, "Hello, world!")
 }

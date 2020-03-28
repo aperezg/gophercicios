@@ -2,10 +2,6 @@
 
 Este ejercicio consiste, básicamente, en crear un `http.Handler` que reenvíe las peticiones HTTP a otras URLs.
 
-## TODOs
-
-- [ ] Upload the solution.
-
 ## Detalles
 
 El objetivo de este ejercicio es crear un [http.Handler](https://golang.org/pkg/net/http/#Handler) que examinará la ruta
@@ -15,10 +11,11 @@ Por ejemplo, si tenemos una configuración de redireccionamiento para `/dogs` a 
 buscaríamos cualquier petición HTTP entrante con la ruta `/dogs` y la redirigiríamos.
 
 Te hemos preparado un directorio [skeleton](https://github.com/friendsofgo/gophercicios/blob/master/url-shortener/skeleton) 
-con la base del ejercicio, y para realizarlo deberás implementar los métodos vacíos en el fichero [handler.go]
-(https://github.com/friendsofgo/gophercicios/blob/master/url-shortener/skeleton/handler.go). Puedes usar como referencia 
-los comentarios en el mismo que explican qué debe hacer cada método. Además, en este mismo esqueleto también hay un punto
-de entrada [cmd/main.go](https://github.com/friendsofgo/gophercicios/blob/master/url-shortener/skeleton/cmd/main.go) 
+con la base del ejercicio, y para realizarlo deberás implementar los métodos vacíos en el fichero 
+[handler.go](https://github.com/friendsofgo/gophercicios/blob/master/url-shortener/skeleton/handler.go). 
+Puedes usar como referencia los comentarios en el mismo que explican qué debe hacer cada método. 
+Además, en este mismo esqueleto también hay un punto de entrada 
+[cmd/main.go](https://github.com/friendsofgo/gophercicios/blob/master/url-shortener/skeleton/cmd/main.go) 
 que usa el código de dicho fichero y que te servirá de ayuda para probar si tu código hace lo que debería estar haciendo.
 
 ## Bonus
