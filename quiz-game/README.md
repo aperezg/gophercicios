@@ -58,3 +58,7 @@ Si aún no te has quedado satisfecho te proponemos un bonus...
 
 1. Añadir un trimming de string y limpiar las entradas del usuario para asegurar que la pregunta sigue siendo válida a pesar de espacios extras, mayúsculas, etc. *Pista, echar un ojo al paquete [strings](https://golang.org/pkg/strings/).*
 2. Añadir un `flag` nuevo que permita mostrar las preguntas desordenadas en cada ejecución.
+
+## Ejercicio Original
+
+Este ejercicio esta basado en la idea original de [Gophercises](https://gophercises.com/) creada por [Jon Calhoun](https://twitter.com/joncalhoun). El ejercicio original lo podéis encontrar [aquí](https://github.com/gophercises/quiz).

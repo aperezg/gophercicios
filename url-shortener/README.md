@@ -26,3 +26,7 @@ Como ejercicios extra también puedes...
 para aceptar un archivo YAML como *flag* que será usado a modo de configuración de las redirecciones.
 1. Crear un `JSONHandler` que tenga el mismo propósito, pero que lea los datos en formato JSON.
 1. Crear un controlador que no lea desde un mapa en memoria, sino que lea desde una base de datos. Ya sea que use BoltDB, SQL u otra cosa, lo que más prefieras.
+
+## Ejercicio Original
+
+Este ejercicio esta basado en la idea original de [Gophercises](https://gophercises.com/) creada por [Jon Calhoun](https://twitter.com/joncalhoun). El ejercicio original lo podéis encontrar [aquí](https://github.com/gophercises/urlshort).
